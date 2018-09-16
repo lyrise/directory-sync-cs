@@ -39,7 +39,7 @@ namespace DirectorySync
         public static void Run(string sourceDirectoryPath, string destDirectoryPath, bool deletable, Func<string, bool> isIgnoreFilePath)
         {
             var now = DateTime.Now;
-            var baseBackupDirectoryPath = Path.Combine(destDirectoryPath, ".backup", $"{now.ToString("yyyy-MM-dd_HH-mm-ss")}");
+            var baseBackupDirectoryPath = Path.Combine(Path.GetDirectoryName(destDirectoryPath), ".backup", $"{now.ToString("yyyy-MM-dd_HH-mm-ss")}", Path.GetFileName(destDirectoryPath));
 
             var hashSet = new HashSet<string>();
 
