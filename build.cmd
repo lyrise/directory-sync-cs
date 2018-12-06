@@ -17,4 +17,3 @@ if %PROCESSOR_ARCHITECTURE% == AMD64 (
 mkdir %DIST_DIR%DirectorySync
 
 dotnet publish %BAT_DIR%src\DirectorySync\DirectorySync.csproj --configuration Release --output "%DIST_DIR%DirectorySync" --runtime %BUILD_ARCHITECTURE%
-pause

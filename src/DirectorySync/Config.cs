@@ -8,7 +8,7 @@ namespace DirectorySync
 {
     public class Config
     {
-        public string[] BaseDirectoryPathList { get; set; }
+        public string[] DirectoryPathList { get; set; }
         public string[] IgnorePatternList { get; set; }
     }
 }
