@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -8,7 +8,8 @@ namespace DirectorySync
 {
     public class Config
     {
-        public string[] DirectoryPathList { get; set; }
+        public string Source { get; set; }
+        public string Destination { get; set; }
         public string[] IgnorePatternList { get; set; }
     }
 }
