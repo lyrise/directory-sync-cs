@@ -1,1 +1,5 @@
-# DirectorySync
+# DirectorySync by C#
+
+## License
+
++ MIT License
