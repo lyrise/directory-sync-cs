@@ -1,4 +1,4 @@
-# DirectorySync by C#
+# DirectorySync
 
 ## License
 
