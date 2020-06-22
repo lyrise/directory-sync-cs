@@ -1,4 +1,4 @@
-# DirectorySync
+# directory-sync-cs 
 
 ## License
 
